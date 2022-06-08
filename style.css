@@ -1,0 +1,119 @@
+.weatherApp {
+  margin-top: 30px;
+  width: 900px;
+  border: solid 4px;
+  background: #bcdbdf;
+}
+
+body {
+  color: #235784;
+  font-family: "Assistant", sans-serif;
+}
+.searchCity {
+  margin-left: 60px;
+  margin-top: 60px;
+  width: 500px;
+  border-radius: 15px;
+  font-size: 35px;
+  font-style: italic;
+  margin-bottom: 0;
+  background: #7bbcce;
+  opacity: 80%;
+  transition: all 200ms ease-in-out;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.searchCity:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+.button {
+  background: #7bbcce;
+  width: 80px;
+  line-height: 60px;
+  font-size: 35px;
+  border-radius: 15px;
+  margin-left: 120px;
+  margin-top: 60px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.locationButton {
+  background: #7bbcce;
+  width: 180px;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 15px;
+  display: block;
+  margin-top: 50px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+input:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.date {
+  margin-top: 0;
+  margin-left: 70px;
+  font-size: 25px;
+}
+
+.current-weather {
+  margin-top: 0;
+  margin-left: 70px;
+  font-size: 25px;
+}
+.emoji {
+  font-size: 150px;
+  position: absolute;
+  top: 140px;
+  left: 600px;
+}
+.forecast {
+  margin-left: 50px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.col-sm-2 {
+  box-sizing: content-box;
+}
+.card-body {
+  color: #235784;
+  width: 150px;
+  height: 220px;
+  border: solid 2px;
+  margin: 10px 10px 30px 0px;
+  background: #7bbcce;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 22px;
+}
+
+.weather-emoji {
+  text-align: center;
+  font-size: 70px;
+}
+.forecast {
+  margin-left: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.quote {
+  display: block;
+  margin-left: 20px;
+  font-size: 22px;
+  font-style: italic;
+  opacity: 80%;
+}
