@@ -116,7 +116,7 @@ input:hover {
 .quote {
   text-align: center;
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.8);
+  color: black;
   font-style: italic;
 }
 
