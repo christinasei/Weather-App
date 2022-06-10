@@ -68,8 +68,8 @@ input:hover {
 .emoji {
   font-size: 150px;
   position: absolute;
-  top: 140px;
-  left: 600px;
+  top: 170px;
+  left: 650px;
 }
 .forecast {
   margin-left: 50px;
@@ -114,9 +114,14 @@ input:hover {
 }
 
 .quote {
-  display: block;
-  margin-left: 20px;
+  text-align: center;
   font-size: 22px;
   font-style: italic;
   opacity: 80%;
+}
+
+.author {
+  display: block;
+  margin-left: 20px;
+  padding: 20px;
 }
