@@ -80,6 +80,7 @@ function currentLocation(position) {
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
   console.log(lat);
+  console.log(lon);
   let apiKey = "760a6673fe694cb8c913e7785b52e3e3";
   let url = "https://api.openweathermap.org/data/2.5/weather?";
   let weatherUrl = `${url}lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
