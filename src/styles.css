@@ -116,8 +116,8 @@ input:hover {
 .quote {
   text-align: center;
   font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
   font-style: italic;
-  opacity: 80%;
 }
 
 .author {
