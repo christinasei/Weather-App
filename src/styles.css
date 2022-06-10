@@ -21,13 +21,11 @@ body {
   font-style: italic;
   margin-bottom: 0;
   background: #7bbcce;
-  opacity: 80%;
   transition: all 200ms ease-in-out;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .searchCity:hover {
   cursor: pointer;
-  opacity: 100%;
 }
 .button {
   background: #7bbcce;
@@ -54,7 +52,6 @@ body {
 }
 input:hover {
   cursor: pointer;
-  opacity: 80%;
 }
 
 .date {
